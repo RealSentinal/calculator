@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181b;
+}
+
+button {
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    cursor: pointer;
+    border: none;
+    margin: 3px;
+    color: white;
+    background-color: #3f3f46;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+button:hover {
+    background-color: #52525b;
+}
+
+.container {
+    color: white;
+    background-color: #27272a;
+    border: 2px;
+    border-color: #272729;
+    height: 100px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    flex-direction: column;
+}
+
+.func {
+    background: rgb(148, 97, 1);
+}
+
+.opp {
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    width: 100%;
+    height: 100%;
+    margin-right: 50px;
+    text-align: end;
+    font-size: 40px;
+}
+
+.zero {
+    background: rgb(164, 164, 164);
+    color: black;
+    border-radius: 30px;
+    width: 140px;
+}
+
+.app{
+    background-color: #27272a;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    flex-direction: column;
+}
+
+.line1, .line2, .line3, .line4, .line5 {
+    display: flex;
+    flex-direction: row;
+}
